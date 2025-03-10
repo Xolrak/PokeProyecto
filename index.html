@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PokeCreador</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <div class="header-left">
+      <img src="./images/icono_web.png" alt="Logo" class="logo-icon">
+      <h1 class="logo-text">PokeCreador</h1>
+    </div>
+    <!-- Perfil -->
+    <div class="profile">
+      <div class="profile-icon">
+        <img src="./images/icono_usuario.png" alt="User Icon">
+      </div>
+      <span>Mi perfil</span>
+      <ul class="profile-menu">
+        <li><a href="#">Mis equipos</a></li>
+        <li><a href="#">Pokédex</a></li>
+        <li><a href="#">Amigos</a></li>
+        <li><a href="#">Ajustes</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <!-- Barra lateral con botones centrados -->
+    <aside>
+      <button class="btn-save">Guardar equipo</button>
+      <button class="btn-delete">Eliminar equipo</button>
+    </aside>
+
+    <!-- Sección central -->
+    <section class="content">
+      <!-- Buscador y nombre del equipo centrados -->
+      <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Buscar Pokémon">
+        <div class="team-name">Mi equipo #1</div>
+      </div>
+
+      <!-- Grid de Pokémon -->
+      <div class="pokemon-grid">
+        <div class="pokemon-card" data-name="tyranitar">
+          <img src="./images/tyranitar.png" alt="Tyranitar">
+        </div>
+        <div class="pokemon-card" data-name="dialga">
+          <img src="./images/dialga.png" alt="Dialga">
+        </div>
+        <div class="pokemon-card" data-name="raichu">
+          <img src="./images/raichu.png" alt="Raichu">
+        </div>
+        <div class="pokemon-card" data-name="magnemite">
+          <img src="./images/magnemite.png" alt="Magnemite">
+        </div>
+        <div class="pokemon-card" data-name="charizard">
+          <img src="./images/charizard.png" alt="Charizard">
+        </div>
+        <div class="pokemon-card" data-name="articuno">
+          <img src="./images/articuno.png" alt="Articuno">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>

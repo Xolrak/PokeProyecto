@@ -1,5 +1,10 @@
-# 🏆 Team Builder Pokémon 🏆  
-¡Bienvenido a **Team Builder Pokémon**! Una web donde los Entrenadores Pokémon pueden crear, gestionar y guardar sus equipos personalizados. 🌟  
+# 🏆 **Creador de equipos Pokémon** 🏆
+
+## 1 - DESCRIPCIÓN
+Este proyecto tiene como objetivo gestionar diversos equipos Pokémon de manera personalizada
+
+## 2 - ANÁLISIS DAFO
+
 
 ## 📌 Características  
 ✅ **Guarda múltiples equipos** para distintas estrategias y formatos.  
